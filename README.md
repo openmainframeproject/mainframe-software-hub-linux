@@ -1,25 +1,14 @@
-```gfm
-# insert project logo - replace the below logo location with the location of your logo
-![](https://github.com/openmainframeproject/artwork/blob/master/projects/PROJECT NAME/PROJECT NAME-color.svg)
-```
+# Mainframe Software Hub for Linux
 
-```gfm
-# Add badges that point to your LICENSE, CII status, and build environment (if it exists). Check out other badges to add at https://shields.io/
-![GitHub](https://img.shields.io/github/license/openmainframeproject/PROJECT NAME)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/CII ID/badge)](https://bestpractices.coreinfrastructure.org/projects/CII ID)
-```
+Welcome to the Mainframe Software Hub for Linux. Here you can look for open source packages not available in distribution repositories or community-provided packages.
 
-# PROJECT NAME
+## Purpose
 
-_2-3 sentence description of the project_
-
-## Install
-
-_Provide install instructions here or point to an INSTALL.md file_
+Currently software artifacts provided by opensource communities typically target `x86` architecture. This project aims to augment that by providing artifacts for `s390x` architecture. Artifacts in this context refers to anything that is produced for consumption by the CI/CD system in place for the particular opensource project. This can include binaries, RPMs, DEBs, and container images.
 
 ## Build
 
-_Provide build instructions here or point to an BUILD.md file_
+A subset of build scripts are provided [here](https://github.com/linux-on-ibm-z/scripts) to build select projects. Any build system can be used to generate corresponding artifacts.
 
 ## Discussion
 
